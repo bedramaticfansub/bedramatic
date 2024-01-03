@@ -39,10 +39,10 @@ header {
 }
 
 .carousel-container {
-	max-width: 1345px;
-	margin: 0 auto;
-	overflow: hidden;
-	position: relative;
+    max-width: 100%; /* Alterado para ocupar toda a largura disponível */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 
 .carousel {
@@ -55,8 +55,8 @@ header {
 }
 
 .carousel img {
-	width: "800"
-	height:"600"
+	width: 100%
+	height: auto
 }
 
 .carousel-dots {
