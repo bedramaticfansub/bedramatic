@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #90639E;
+    background-color: #f5f5dc;
     padding: 20px;
     text-align: center;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 .genre-section h2 {
-    color: #ffb3d2;
+    color: ##f5f5dc;
     text-align: center;
     font-size: 40px;
 }
@@ -88,13 +88,13 @@ header {
 .episódios p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #ffb3d2;
+    color: #f5f5dc;
 
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #ffb3d2;
+    color: #f5f5dc;
 
 }
