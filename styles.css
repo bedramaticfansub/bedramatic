@@ -115,4 +115,8 @@ header {
 }
 
 
+.icon-item i {
+    font-size: 30px; /* Ajuste conforme necessário */
+    color: #fff; /* Cor dos ícones */
+}
 
