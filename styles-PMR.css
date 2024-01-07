@@ -1,18 +1,18 @@
 body {
-    background-color: #e3e3a6;
+    background-color: #b89d68;
     margin: 20px;
     font-family: 'Staatliches', sans-serif;
 }
 
 @font-face {
     font-family: 'Staatliches';
-    src: url('file:///Front End/Staatliches/Staatliches-Regular.ttf') format('truetype');
+    src: url("Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 header {
-    background-color: #e3e3a6;
+    background-color: #b89d68;
     padding: 20px;
     text-align: center;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 .genre-section h2 {
-    color: #e3e3a6;
+    color: #b89d68;
     text-align: center;
     font-size: 40px;
 }
@@ -46,14 +46,14 @@ header {
 
 @font-face {
     font-family: 'Titillium-Light';
-    src: url('file:///Front End/Titillium/Titillium-Light.ttf') format('truetype');
+    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Titillium-Black';
-    src: url('file:///Front End/Titillium/Titillium-Black.ttf') format('truetype');
+    src: url("Front End/Titillium/Titillium-Black.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -66,7 +66,7 @@ header {
 
 .sinopse p {
     font-family: 'Titillium-Light', sans-serif;
-    src: url('file:///Front End/Titillium/Titillium-Light.ttf') format('truetype');
+    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
     font-size: 20px;
     color:  #fff;
 }
@@ -80,7 +80,7 @@ header {
 
 .episódios {
     padding: 5px;
-    background-color: #e3e3a6;
+    background-color: #b89d68;
     border-radius: 5px;
     text-align: center;
 }
@@ -88,13 +88,13 @@ header {
 .episódios p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #e3e3a6;
+    color: #b89d68;
 
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #e3e3a6;
+    color: #b89d68;
 
 }
