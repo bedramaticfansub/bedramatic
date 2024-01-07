@@ -109,16 +109,14 @@ header {
 
 /* ... (seu código CSS existente) */
 
+.ELENCO, .EPISÓDIOS {
+    text-align: center;
+}
+
 .ELENCO h2,
 .EPISÓDIOS h2 {
     color: #fff;
-    text-align: center;
     font-size: 40px;
-}
-
-.ELENCO,
-.EPISÓDIOS {
-    text-align: center;
 }
 
 .ELENCO p,
