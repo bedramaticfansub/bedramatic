@@ -133,12 +133,13 @@ header {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
     color: #b89d68;
-
+    text-align: center;
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
     color: #b89d68;
+    text-align: center;
 
 }
