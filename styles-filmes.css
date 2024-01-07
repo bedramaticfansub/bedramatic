@@ -45,7 +45,7 @@ header {
 /* Estilo para telas menores (até 767px de largura) */
 @media screen and (max-width: 767px) {
     .poster img {
-        width: 100px; /* Reduzir a largura dos posteres para telas menores */
+        width: 40px; /* Reduzir a largura dos posteres para telas menores */
     }
 }
 
