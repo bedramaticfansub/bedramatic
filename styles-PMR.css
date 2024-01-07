@@ -1,18 +1,18 @@
 body {
-    background-color: #B89D68;
+    background-color: #90639E;
     margin: 20px;
     font-family: 'Staatliches', sans-serif;
 }
 
 @font-face {
     font-family: 'Staatliches';
-    src: url('"Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
+    src: url("Front End/Staatliches/Staatliches-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 header {
-    background-color: #B89D68;
+    background-color: #90639E;
     padding: 20px;
     text-align: center;
 }
@@ -68,19 +68,19 @@ header {
     font-family: 'Titillium-Light', sans-serif;
     src: url("Front End\Titillium\Titillium-Light.ttf") format('truetype');
     font-size: 20px;
-    color:  #f5f5dc;
+    color:  #fff;
 }
 
 
 .sinopse p {
     font-family: 'Titillium-Light', sans-serif;
     font-size: 25px;
-    color: #f5f5dc;
+    color: #fff;
 }
 
 .episódios {
     padding: 5px;
-    background-color: #f5f5dc;
+    background-color: #90639E;
     border-radius: 5px;
     text-align: center;
 }
@@ -88,13 +88,13 @@ header {
 .episódios p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #f5f5dc;
+    color: #ffb3d2;
 
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #f5f5dc;
+    color: #ffb3d2;
 
 }
