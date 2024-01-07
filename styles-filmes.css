@@ -44,10 +44,21 @@ header {
 
 /* Estilo para telas menores (até 767px de largura) */
 @media screen and (max-width: 767px) {
+    .poster-container {
+        flex-wrap: wrap; /* Permitir que os posteres quebrem para a linha abaixo */
+    }
+
+    .poster-item {
+        width: 50%; /* Utiliza 50% da largura do contêiner para permitir dois posteres por linha */
+        box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
+        margin-right: 0; /* Remove a margem direita para evitar quebras inadequadas */
+    }
+
     .poster img {
-        width: 40%; /* Utiliza a largura percentual da tela para telas menores */
-        max-width: 100px; /* Limita a largura máxima dos posteres */
+        width: 100%; /* Utiliza 100% da largura do item para preencher o contêiner */
+        max-width: none; /* Remove a restrição da largura máxima para permitir uma largura maior */
     }
 }
+
 
 
