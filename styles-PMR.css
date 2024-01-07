@@ -1,18 +1,18 @@
 body {
-    background-color: #90639E;
+    background-color: #b89d68;
     margin: 20px;
     font-family: 'Staatliches', sans-serif;
 }
 
 @font-face {
     font-family: 'Staatliches';
-    src: url("Front End/Staatliches/Staatliches-Regular.ttf') format('truetype');
+    src: url("Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 header {
-    background-color: #90639E;
+    background-color: #b89d68;
     padding: 20px;
     text-align: center;
 }
@@ -22,20 +22,25 @@ header {
 }
 
 .genre-section h2 {
-    color: #ffb3d2;
+    color: #b89d68;
     text-align: center;
     font-size: 40px;
 }
 
-.carousel-container {
+.poster-container {
     display: inline;
     align-items: center; /* Centraliza verticalmente */
 }
 
-.carousel-item {
+.poster-item {
     margin-right: 40px;
     margin-left: 100px;
 
+}
+
+.poster img {
+    width: 30px;
+    height: 50px;
 }
 
 
@@ -61,7 +66,7 @@ header {
 
 .sinopse p {
     font-family: 'Titillium-Light', sans-serif;
-    src: url("Front End\Titillium\Titillium-Light.ttf") format('truetype');
+    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
     font-size: 20px;
     color:  #fff;
 }
@@ -75,7 +80,7 @@ header {
 
 .episódios {
     padding: 5px;
-    background-color: #90639E;
+    background-color: #b89d68;
     border-radius: 5px;
     text-align: center;
 }
@@ -83,13 +88,13 @@ header {
 .episódios p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #ffb3d2;
+    color: #b89d68;
 
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #ffb3d2;
+    color: #b89d68;
 
 }
