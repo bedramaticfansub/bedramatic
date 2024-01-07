@@ -2,7 +2,6 @@ body {
 	background-color: #90639E;
 	margin: 0; /* Remova a margem padrão do body para garantir que a cor de fundo cubra toda a tela */
 	font-family: 'Staatliches', sans-serif;
-
 }
 
 @font-face {
@@ -11,7 +10,6 @@ body {
 	font-weight: normal;
 	font-style: normal;
 }
-
 
 header {
 	background-color: #90639E; /* Cor de fundo do cabeçalho */
@@ -23,40 +21,28 @@ header {
 	max-height: 100px; /* Ajuste conforme necessário */
 }
 
-
 /* Estilo padrão para posteres */
 .poster-container {
     display: flex;
     flex-wrap: wrap; /* Permite que os posteres quebrem para a linha abaixo quando não há espaço suficiente */
+    justify-content: space-evenly; /* Distribui os posteres uniformemente no contêiner */
 }
 
 .poster-item {
-    margin-right: 10px; /* Adicione margem entre os posteres */
+    margin: 10px; /* Adicione margem entre os posteres */
+    flex: 0 1 calc(50% - 20px); /* Utiliza 50% da largura do contêiner com margens incluídas */
+    box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
 }
 
 /* Estilo padrão para posteres */
 .poster img {
-    width: 150px; /* Largura dos posteres */
+    width: 100%; /* Largura dos posteres */
     height: auto;
 }
 
 /* Estilo para telas menores (até 767px de largura) */
 @media screen and (max-width: 767px) {
-    .poster-container {
-	display: flex;
-    }
-
     .poster-item {
-        width: 50%; /* Utiliza 50% da largura do contêiner para permitir dois posteres por linha */
-        box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
-        margin-right: 20px; /* Remove a margem direita para evitar quebras inadequadas */
-    }
-
-    .poster img {
-        width: 50%; /* Utiliza 100% da largura do item para preencher o contêiner */
-        max-width: none; /* Remove a restrição da largura máxima para permitir uma largura maior */
+        flex: 0 1 calc(100% - 20px); /* Utiliza 100% da largura do contêiner com margens incluídas */
     }
 }
-
-
-
