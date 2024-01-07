@@ -27,20 +27,15 @@ header {
     font-size: 40px;
 }
 
-.poster-container {
+.carousel-container {
     display: inline;
     align-items: center; /* Centraliza verticalmente */
 }
 
-.poster-item {
+.carousel-item {
     margin-right: 40px;
     margin-left: 100px;
 
-}
-
-.poster img {
-    width: 30px;
-    height: 50px;
 }
 
 
