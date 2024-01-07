@@ -36,6 +36,7 @@ header {
     margin-right: 30px; /* Adicione margem entre os posteres */
 }
 
+/* Estilo padrão para posteres */
 .poster img {
     width: 150px; /* Largura dos posteres */
     height: auto;
@@ -43,8 +44,9 @@ header {
 
 /* Estilo para telas menores (até 767px de largura) */
 @media screen and (max-width: 767px) {
-    .poster-item {
-        margin-right: 10px; /* Reduzir a margem para posteres menores */
+    .poster img {
+        width: 100px; /* Reduzir a largura dos posteres para telas menores */
     }
 }
+
 
