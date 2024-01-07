@@ -49,11 +49,11 @@ header {
     .poster-item {
         width: 50%; /* Utiliza 50% da largura do contêiner para permitir dois posteres por linha */
         box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
-        margin-right: 0; /* Remove a margem direita para evitar quebras inadequadas */
+        margin-right: 20px; /* Remove a margem direita para evitar quebras inadequadas */
     }
 
     .poster img {
-        width: 100%; /* Utiliza 100% da largura do item para preencher o contêiner */
+        width: 50%; /* Utiliza 100% da largura do item para preencher o contêiner */
         max-width: none; /* Remove a restrição da largura máxima para permitir uma largura maior */
     }
 }
