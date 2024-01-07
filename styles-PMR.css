@@ -31,7 +31,7 @@ header {
     max-width: 1345px;
     margin: 0 auto;
     overflow: hidden;
-    position: relative;
+    position: center;
 }
 .carousel {
  	display: flex;
@@ -68,23 +68,6 @@ header {
         width: 100%; /* Utilizar a largura total da tela para a imagem */
         height: auto; /* Altura automática para manter a proporção da imagem */
     }
-}
-
-
-.poster-container {
-    display: inline;
-    align-items: center; /* Centraliza verticalmente */
-}
-
-.poster-item {
-    margin-right: 40px;
-    margin-left: 100px;
-
-}
-
-.poster img {
-    width: 30px;
-    height: 50px;
 }
 
 
@@ -127,6 +110,8 @@ header {
     padding: 5px;
     background-color: #b89d68;
     border-radius: 5px;
+    text-align: center;
+
 }
 
 .episódios p {
@@ -139,6 +124,5 @@ header {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
     color: #b89d68;
-    text-align: center;
 
 }
