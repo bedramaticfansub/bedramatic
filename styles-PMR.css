@@ -79,22 +79,22 @@ header {
 }
 
 .episódios {
+    text-align: center;
     padding: 5px;
     background-color: #b89d68;
     border-radius: 5px;
-    text-align: center;
 }
 
 .episódios p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #b89d68;
+    color:  #fff;
 
 }
 
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    color: #b89d68;
+    color:  #fff;
 
 }
