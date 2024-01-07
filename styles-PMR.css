@@ -27,6 +27,48 @@ header {
     font-size: 40px;
 }
 
+.carousel-container {
+    max-width: 1345px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel {
+ 	display: flex;
+	transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+	min-width: 1345px;
+}
+
+.carousel img {
+	width: 100%
+	height: auto
+}
+
+.carousel-dots {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Estilo para telas menores (até 767px de largura) */
+@media screen and (max-width: 767px) {
+    .carousel-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .carousel-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .carousel img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
+}
+
+
 .poster-container {
     display: inline;
     align-items: center; /* Centraliza verticalmente */
