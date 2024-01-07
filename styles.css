@@ -30,7 +30,7 @@ header {
 .subgenres a {
 	text-decoration: none;
 	color: #ffb3d2; /* Cor dos links */
-	margin: 0px;
+	margin: 10px;
 	font-size: 18px; /* Ajuste conforme necessário */
 }
 
