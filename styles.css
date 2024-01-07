@@ -30,7 +30,7 @@ header {
 .subgenres a {
 	text-decoration: none;
 	color: #ffb3d2; /* Cor dos links */
-	margin: 0 10px;
+	margin: 0px;
 	font-size: 18px; /* Ajuste conforme necessário */
 }
 
@@ -132,11 +132,11 @@ header {
 /* Estilo para centralizar e ajustar a distância do ícone do Facebook no rodapé */
 .icon-item {
     text-align: center; /* Centralizar horizontalmente */
-    margin-top: 50px;   /* Adicionar margem superior */
+    margin-top: 300px;   /* Adicionar margem superior */
 }
 
 .icon-item i {
-    font-size: 50px;    /* Tamanho do ícone, ajuste conforme necessário */
+    font-size: 20px;    /* Tamanho do ícone, ajuste conforme necessário */
     color: #fff;        /* Cor do ícone, ajuste conforme necessário */
 }
 
