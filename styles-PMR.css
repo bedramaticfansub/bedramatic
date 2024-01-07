@@ -1,6 +1,6 @@
 body {
     background-color: #b89d68;
-    margin: 20px;
+    margin: 40px;
     font-family: 'Staatliches', sans-serif;
 }
 
@@ -45,6 +45,8 @@ header {
 .carousel img {
 	width: 100%
 	height: auto
+	text-align: center;
+
 }
 
 .carousel-dots {
