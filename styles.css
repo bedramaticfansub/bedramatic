@@ -114,9 +114,14 @@ header {
 	margin-right: 30px; /* Adicione margem entre os posteres */
 }
 
+/* Estilo para centralizar e ajustar a distância do ícone do Facebook no rodapé */
+.icon-item {
+    text-align: center; /* Centralizar horizontalmente */
+    margin-top: 50px;   /* Adicionar margem superior */
+}
 
 .icon-item i {
-    font-size: 30px; /* Ajuste conforme necessário */
-    color: #fff; /* Cor dos ícones */
+    font-size: 50px;    /* Tamanho do ícone, ajuste conforme necessário */
+    color: #fff;        /* Cor do ícone, ajuste conforme necessário */
 }
 
