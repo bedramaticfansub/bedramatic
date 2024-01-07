@@ -106,23 +106,27 @@ header {
 
 }
 
-.episódios {
-    padding: 5px;
-    background-color: #b89d68;
-    border-radius: 5px;
+
+/* ... (seu código CSS existente) */
+
+.ELENCO h2,
+.EPISÓDIOS h2 {
+    color: #fff;
     text-align: center;
-
+    font-size: 40px;
 }
 
-.episódios p {
-    font-family: 'Titillium-Black', sans-serif;
-    font-size: 30px;
-    color: #b89d68;
+.ELENCO,
+.EPISÓDIOS {
+    text-align: center;
 }
 
-.episódios a {
-    font-family: 'Titillium-Black', sans-serif;
+.ELENCO p,
+.EPISÓDIOS p,
+.EPISÓDIOS a {
+    font-family: 'Titillium-Light', sans-serif;
     font-size: 20px;
-    color: #b89d68;
-
+    color: #fff;
 }
+
+/* ... (seu código CSS existente) */
