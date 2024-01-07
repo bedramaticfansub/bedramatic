@@ -24,32 +24,27 @@ header {
 }
 
 
-.genre-section h2 {
-	color: #ffb3d2; /* Cor do título da seção de gênero */
-	text-align: center;
-	font-size: 30px;
-
-}
-
+/* Estilo padrão para posteres */
 .poster-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.poster {
-	margin-right: 10px; /* Espaçamento entre os posteres */
-}
-
-.poster img {
-	width: 150px; /* Largura dos posteres */
-	height: auto;
-}
-
-.poster-container {
-	display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os posteres quebrem para a linha abaixo quando não há espaço suficiente */
 }
 
 .poster-item {
-	margin-right: 30px; /* Adicione margem entre os posteres */
+    margin-right: 30px; /* Adicione margem entre os posteres */
 }
+
+.poster img {
+    width: 150px; /* Largura dos posteres */
+    height: auto;
+}
+
+/* Estilo para telas menores (até 767px de largura) */
+@media screen and (max-width: 767px) {
+    .poster-item {
+        margin-right: 10px; /* Reduzir a margem para posteres menores */
+    }
+}
+
