@@ -27,41 +27,9 @@ header {
     font-size: 40px;
 }
 
-.poster-container {
-    display: inline;
-    align-items: center; /* Centraliza verticalmente */
-}
-
-.poster-item {
-    margin-right: 40px;
-    margin-left: 100px;
-
-}
-
-.poster img {
-    width: 30px;
-    height: 50px;
-}
-
-
-@font-face {
-    font-family: 'Titillium-Light';
-    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Titillium-Black';
-    src: url("Front End/Titillium/Titillium-Black.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Estilo da sinopse */
 .sinopse {
-   text-align: center;
-
+    text-align: center;
 }
 
 .sinopse p {
@@ -70,7 +38,6 @@ header {
     font-size: 20px;
     color:  #fff;
 }
-
 
 .sinopse p {
     font-family: 'Titillium-Light', sans-serif;
@@ -85,16 +52,30 @@ header {
     text-align: center;
 }
 
-.episódios p {
-    font-family: 'Titillium-Black', sans-serif;
-    font-size: 20px;
-    color: #fff;
-
-}
-
+.episódios p,
 .episódios a {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
     color: #fff;
+}
 
+/* Estilo para dispositivos móveis */
+@media screen and (max-width: 767px) {
+    .poster-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .poster-item {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .poster img {
+        width: 100%;
+        height: auto;
+    }
 }
