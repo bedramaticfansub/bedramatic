@@ -27,13 +27,11 @@ header {
 /* Estilo padrão para posteres */
 .poster-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap; /* Permite que os posteres quebrem para a linha abaixo quando não há espaço suficiente */
 }
 
 .poster-item {
-    margin-right: 30px; /* Adicione margem entre os posteres */
+    margin-right: 10px; /* Adicione margem entre os posteres */
 }
 
 /* Estilo padrão para posteres */
@@ -45,7 +43,7 @@ header {
 /* Estilo para telas menores (até 767px de largura) */
 @media screen and (max-width: 767px) {
     .poster-container {
-        flex-wrap: wrap; /* Permitir que os posteres quebrem para a linha abaixo */
+	display: flex;
     }
 
     .poster-item {
