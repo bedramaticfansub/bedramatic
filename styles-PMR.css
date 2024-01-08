@@ -41,6 +41,22 @@ header {
 .poster img {
     width: 30px;
     height: 50px;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .poster-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .poster-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .poster img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
 }
 
 
