@@ -31,3 +31,20 @@ document.addEventListener('DOMContentLoaded', function () {
 	setInterval(nextSlide, 5000); // Alterna para o próximo slide a cada 5 segundos
 });
 
+
+
+function search() {
+    var input = document.getElementById("searchInput");
+    var filter = input.value.toUpperCase();
+    var titles = document.querySelectorAll(".sinopse"); // Substitua ".title" pela classe dos seus títulos
+
+    titles.forEach(function(title) {
+        if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+            title.style.display = "";
+        } else {
+            title.style.display = "none";
+        }
+    });
+}
+
+
