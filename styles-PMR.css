@@ -64,18 +64,38 @@ header {
 
 }
 
-.SINOPSE p {
+.sinopse p {
     font-family: 'Titillium-Light', sans-serif;
     src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
     font-size: 20px;
     color:  #fff;
 }
 
-
-.SINOPSE p {
+.sinopse p {
     font-family: 'Titillium-Light', sans-serif;
     font-size: 25px;
     color: #fff;
+}
+
+.ELENCO {
+    text-align: center;
+    padding: 5px;
+    background-color: #b89d68;
+    border-radius: 5px;
+}
+
+.ELENCO p {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
+}
+
+.ELENCO a {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
 }
 
 .EPISÓDIOS {
