@@ -24,6 +24,7 @@ header {
 .genre-section {
 	background-color: #90639E; /* Cor de fundo da seção de gênero */
 	padding: 20px;
+	text-align: center;
 }
 
 .genre-section h2 {
