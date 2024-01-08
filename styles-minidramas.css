@@ -2,16 +2,14 @@ body {
 	background-color: #90639E;
 	margin: 0; /* Remova a margem padrão do body para garantir que a cor de fundo cubra toda a tela */
 	font-family: 'Staatliches', sans-serif;
-
 }
 
 @font-face {
 	font-family: 'Staatliches';
-	src: url('file:///Front End/Staatliches/Staatliches-Regular.ttf') format('truetype');
+	src: url("Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-
 
 header {
 	background-color: #90639E; /* Cor de fundo do cabeçalho */
@@ -23,34 +21,39 @@ header {
 	max-height: 100px; /* Ajuste conforme necessário */
 }
 
+.genre-section {
+	background-color: #90639E; /* Cor de fundo da seção de gênero */
+	padding: 20px;
+	text-align: center;
+}
 
 .genre-section h2 {
 	color: #ffb3d2; /* Cor do título da seção de gênero */
-	text-align: center;
-	font-size: 30px;
-
 }
 
 .poster-container {
 	display: flex;
 	overflow-x: auto; /* Permite rolar horizontalmente se houver muitos posteres */
-	justify-content: center;
+	justify-content: start;
 	align-items: center;
-}
 
-.poster {
-	margin-right: 10px; /* Espaçamento entre os posteres */
-}
-
-.poster img {
-	width: 150px; /* Largura dos posteres */
-	height: auto;
-}
-
-.poster-container {
-	display: flex;
 }
 
 .poster-item {
-	margin-right: 30px; /* Adicione margem entre os posteres */
+    margin: 10px; /* Adicione margem entre os posteres */
+    flex: 0 1 calc(50% - 20px); /* Utiliza 50% da largura do contêiner com margens incluídas */
+    box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
+}
+
+/* Estilo padrão para posteres */
+.poster img {
+    width: 100%; /* Largura dos posteres */
+    height: auto;
+}
+
+/* Estilo para telas menores (até 767px de largura) */
+@media screen and (max-width: 767px) {
+    .poster-item {
+        flex: 0 1 calc(100% - 20px); /* Utiliza 100% da largura do contêiner com margens incluídas */
+    }
 }
