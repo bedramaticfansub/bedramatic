@@ -137,3 +137,27 @@ header {
     color:  #fff;
 
 }
+
+.site-footer {
+  background-color: #90639E;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.visit-text {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}     
