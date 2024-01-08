@@ -140,6 +140,11 @@ header {
   font-size: 24px;
 }
 
+.visit-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .icon {
   color: #fff;
   margin: 0 10px;
