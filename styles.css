@@ -133,6 +133,8 @@ header {
 .icon-item {
     text-align: center; /* Centralizar horizontalmente */
     margin-top: 300px;   /* Adicionar margem superior */
+    display: inline;
+
 }
 
 .icon-item i {
@@ -140,3 +142,11 @@ header {
     color: #fff;        /* Cor do ícone, ajuste conforme necessário */
 }
 
+.redes-section {
+	background-color: #90639E; /* Cor de fundo da seção de gênero */
+	padding: 20px;
+}
+
+.redes-section h2 {
+	color: #ffb3d2; /* Cor do título da seção de gênero */
+}
