@@ -30,13 +30,13 @@ header {
 .poster-container {
     display: inline;
     align-items: center; /* Centraliza verticalmente */
-}
-
-.poster-item {
-    margin-right: 10px;
-    margin-left: 10px;
+    max-width: 100%; /* Usar a largura total da tela */
 
 }
+
+  .poster-item {
+    min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
 
 .poster img {
     width: auto;
