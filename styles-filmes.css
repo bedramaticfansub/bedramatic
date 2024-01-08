@@ -21,6 +21,15 @@ header {
 	max-height: 100px; /* Ajuste conforme necessário */
 }
 
+.genre-section {
+	background-color: #90639E; /* Cor de fundo da seção de gênero */
+	padding: 20px;
+}
+
+.genre-section h2 {
+	color: #ffb3d2; /* Cor do título da seção de gênero */
+}
+
 .poster-container {
 	display: flex;
 	overflow-x: auto; /* Permite rolar horizontalmente se houver muitos posteres */
