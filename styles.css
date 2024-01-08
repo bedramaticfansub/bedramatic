@@ -132,13 +132,14 @@ header {
 /* Estilo para centralizar e ajustar a distância do ícone do Facebook no rodapé */
 .icon-item {
     text-align: center; /* Centralizar horizontalmente */
+    justify-content: center;
     margin-top: 300px;   /* Adicionar margem superior */
     display: inline;
 
 }
 
 .icon-item i {
-    font-size: 20px;    /* Tamanho do ícone, ajuste conforme necessário */
+    font-size: 30px;    /* Tamanho do ícone, ajuste conforme necessário */
     color: #fff;        /* Cor do ícone, ajuste conforme necessário */
 }
 
@@ -149,9 +150,10 @@ header {
 }
 
 .redes-item {
-	color: #fff;        /* Cor do ícone, ajuste conforme necessário */
+	color: #ffb6c1;        /* Cor do ícone, ajuste conforme necessário */
 	text-align: center; /* Centralizar horizontalmente */
-        font-size: 35px;    /* Tamanho do ícone, ajuste conforme necessário */
+	justify-content: center;
+        font-size: 50px;    /* Tamanho do ícone, ajuste conforme necessário */
 
 
 }
