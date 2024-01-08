@@ -145,8 +145,13 @@ header {
 .redes-section {
 	background-color: #90639E; /* Cor de fundo da seção de gênero */
 	padding: 20px;
+	
 }
 
-.redes-section h2 {
-	color: #ffb3d2; /* Cor do título da seção de gênero */
+.redes-item {
+	color: #fff;        /* Cor do ícone, ajuste conforme necessário */
+	text-align: center; /* Centralizar horizontalmente */
+        font-size: 35px;    /* Tamanho do ícone, ajuste conforme necessário */
+
+
 }
