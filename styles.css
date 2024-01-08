@@ -19,6 +19,23 @@ header {
 	text-align: center;
 }
 
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .logo img {
 	max-height: 100px; /* Ajuste conforme necessário */
 }
