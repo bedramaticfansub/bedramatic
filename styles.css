@@ -129,31 +129,30 @@ header {
 	margin-right: 30px; /* Adicione margem entre os posteres */
 }
 
-/* Estilo para centralizar e ajustar a distância do ícone do Facebook no rodapé */
-.icon-item {
-    text-align: center; /* Centralizar horizontalmente */
-    justify-content: center;
-    margin-top: 300px;   /* Adicionar margem superior */
-    display: inline;
 
-}
-
-.icon-item i {
-    font-size: 30px;    /* Tamanho do ícone, ajuste conforme necessário */
-    color: #fff;        /* Cor do ícone, ajuste conforme necessário */
-}
-
-.redes-section {
-	background-color: #90639E; /* Cor de fundo da seção de gênero */
+footer {
+	background-color: #993399;
+	color: #ffb6c1;
 	padding: 20px;
-	
+	text-align: center;
+	margin-top: 50px;
 }
 
-.redes-item {
-	color: #ffb6c1;        /* Cor do ícone, ajuste conforme necessário */
-	text-align: center; /* Centralizar horizontalmente */
-	justify-content: center;
-        font-size: 50px;    /* Tamanho do ícone, ajuste conforme necessário */
-
-
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}		
+		
+		
+		       
