@@ -1,0 +1,83 @@
+body {
+	background-color: #90639E;
+	margin: 0; /* Remova a margem padrão do body para garantir que a cor de fundo cubra toda a tela */
+	font-family: 'Staatliches', sans-serif;
+}
+
+@font-face {
+	font-family: 'Staatliches';
+	src: url("Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+header {
+	background-color: #90639E; /* Cor de fundo do cabeçalho */
+	padding: 20px;
+	text-align: center;
+}
+
+.logo img {
+	max-height: 100px; /* Ajuste conforme necessário */
+}
+
+.genre-section {
+	background-color: #90639E; /* Cor de fundo da seção de gênero */
+	padding: 20px;
+	text-align: center;
+}
+
+.genre-section h2 {
+	color: #ffb3d2; /* Cor do título da seção de gênero */
+}
+
+.poster-container {
+	display: flex;
+	overflow-x: auto; /* Permite rolar horizontalmente se houver muitos posteres */
+	justify-content: start;
+	align-items: center;
+
+}
+
+.poster-item {
+    margin: 10px; /* Adicione margem entre os posteres */
+    flex: 0 1 calc(50% - 20px); /* Utiliza 50% da largura do contêiner com margens incluídas */
+    box-sizing: border-box; /* Inclui a largura da margem e do preenchimento no cálculo da largura */
+}
+
+/* Estilo padrão para posteres */
+.poster img {
+    width: 100%; /* Largura dos posteres */
+    height: auto;
+}
+
+/* Estilo para telas menores (até 767px de largura) */
+@media screen and (max-width: 767px) {
+    .poster-item {
+        flex: 0 1 calc(100% - 20px); /* Utiliza 100% da largura do contêiner com margens incluídas */
+    }
+}
+
+.site-footer {
+  background-color: #90639E;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.visit-text {
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}     
