@@ -32,19 +32,19 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
 function search() {
     var input = document.getElementById("searchInput");
-    var filter = input.value.toUpperCase();
-    var titles = document.querySelectorAll(".sinopse"); // Substitua ".title" pela classe dos seus títulos
+    var filter = input.value.toUpperCase(); // Obtém o texto da barra de pesquisa e o transforma para maiúsculas
+    var dramas = document.querySelectorAll(".sinopse"); // Seleciona todos os elementos com a classe "sinopse"
 
-    titles.forEach(function(title) {
-        if (title.innerText.toUpperCase().indexOf(filter) > -1) {
-            title.style.display = "";
+    dramas.forEach(function(drama) {
+        var titleElement = drama.querySelector(".title"); // Para cada elemento "sinopse", procura o elemento com a classe "title" dentro dele
+
+        // Verifica se o texto da barra de pesquisa está presente no texto do título (ignorando maiúsculas/minúsculas)
+        if (titleElement.innerText.toUpperCase().indexOf(filter) > -1) {
+            drama.style.display = "";  // Mostra o drama se houver correspondência
         } else {
-            title.style.display = "none";
+            drama.style.display = "none";  // Oculta o drama se não houver correspondência
         }
     });
 }
-
-
