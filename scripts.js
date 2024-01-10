@@ -31,4 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
 	setInterval(nextSlide, 5000); // Alterna para o próximo slide a cada 5 segundos
 });
 
+	if (window.innerWidth <= 767) {
+    setInterval(nextSlide, 8000); // Alterna para o próximo slide a cada 8 segundos em telas menores
+} else {
+    setInterval(nextSlide, 5000); // Alterna para o próximo slide a cada 5 segundos em telas maiores
+}
 
