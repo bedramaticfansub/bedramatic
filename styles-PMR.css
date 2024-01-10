@@ -61,7 +61,7 @@ header {
 
 
 .banner-container {
-    display: inline;
+    display: flex;
     align-items: center; /* Centraliza verticalmente */
 }
 
