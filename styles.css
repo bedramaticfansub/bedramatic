@@ -19,22 +19,6 @@ header {
 	text-align: center;
 }
 
-.search-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-input[type=text] {
-    padding: 10px;
-    font-size: 16px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
 
 .logo img {
 	max-height: 100px; /* Ajuste conforme necessário */
@@ -103,7 +87,7 @@ button {
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline;
-	transition: background-color 0.3s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
 	cursor: pointer;
 }
 
