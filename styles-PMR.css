@@ -34,7 +34,7 @@ header {
 
 .poster-item {
     margin-right: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
 
 }
 
@@ -58,41 +58,6 @@ header {
         height: auto; /* Altura automática para manter a proporção da imagem */
     }
 }
-
-
-.banner-container {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin-left: 0; /* Remova ou ajuste conforme necessário */
-}
-
-
-.banner-item {
-    margin: 0;
-}
-
-.banner img {
-    width: auto;
-    height: auto;
-    
-}
-
-@media screen and (max-width: 767px) {
-    .banner-container {
-        max-width: 100%; /* Usar a largura total da tela */
-    }
-
-    .banner-item {
-        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
-    }
-
-    .banner img {
-        width: 100%; /* Utilizar a largura total da tela para a imagem */
-        height: auto; /* Altura automática para manter a proporção da imagem */
-    }
-}
-
 
 
 @font-face {
@@ -131,26 +96,39 @@ header {
     color: #fff;
 }
 
-.ELENCO {
-    text-align: center;
-    padding: 5px;
-    background-color: #b89d68;
-    border-radius: 5px;
+.banner-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-left: 0; /* Remova ou ajuste conforme necessário */
 }
 
-.ELENCO p {
-    font-family: 'Titillium-Black', sans-serif;
-    font-size: 20px;
-    color:  #fff;
 
+.banner-item {
+    margin: 0;
 }
 
-.ELENCO a {
-    font-family: 'Titillium-Black', sans-serif;
-    font-size: 20px;
-    color:  #fff;
-
+.banner img {
+    width: auto;
+    height: auto;
+    
 }
+
+@media screen and (max-width: 767px) {
+    .banner-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .banner-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .banner img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
+}
+
 
 .EPISÓDIOS {
     text-align: center;
