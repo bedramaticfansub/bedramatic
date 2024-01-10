@@ -60,6 +60,40 @@ header {
 }
 
 
+.banner-container {
+    display: inline;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.banner-item {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.banner img {
+    width: auto;
+    height: auto;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .banner-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .banner-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .banner img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
+}
+
+
+
 @font-face {
     font-family: 'Titillium-Light';
     src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
