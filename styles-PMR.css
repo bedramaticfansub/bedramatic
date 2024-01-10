@@ -34,7 +34,7 @@ header {
 
 .poster-item {
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 20px;
 
 }
 
@@ -61,7 +61,7 @@ header {
 
 
 .banner-container {
-    display: flex;
+    display: inline;
     align-items: center; /* Centraliza verticalmente */
 }
 
