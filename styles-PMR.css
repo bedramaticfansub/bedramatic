@@ -61,14 +61,15 @@ header {
 
 
 .banner-container {
-    display: inline;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+    margin-left: 0; /* Remova ou ajuste conforme necessário */
 }
 
-.banner-item {
-    margin-right: 0px;
-    margin-left: 0px;
 
+.banner-item {
+    margin: 0;
 }
 
 .banner img {
