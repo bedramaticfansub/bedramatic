@@ -34,7 +34,7 @@ header {
 
 .poster-item {
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 20px;
 
 }
 
@@ -58,6 +58,40 @@ header {
         height: auto; /* Altura automática para manter a proporção da imagem */
     }
 }
+
+
+.banner-container {
+    display: inline;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.banner-item {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.banner img {
+    width: auto;
+    height: auto;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .banner-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .banner-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .banner img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
+}
+
 
 
 @font-face {
@@ -96,56 +130,37 @@ header {
     color: #fff;
 }
 
-.banner-container {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    margin-left: 0; /* Remova ou ajuste conforme necessário */
+.ELENCO {
+    text-align: center;
+    padding: 5px;
+    background-color: #b89d68;
+    border-radius: 5px;
 }
 
+.ELENCO p {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
 
-.banner-item {
-    margin: 0;
 }
 
-.banner img {
-    width: auto;
-    height: auto;
-    
+.ELENCO a {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
 }
-
-@media screen and (max-width: 767px) {
-    .banner-container {
-        max-width: 100%; /* Usar a largura total da tela */
-    }
-
-    .banner-item {
-        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
-    }
-
-    .banner img {
-        width: 100%; /* Utilizar a largura total da tela para a imagem */
-        height: auto; /* Altura automática para manter a proporção da imagem */
-    }
-}
-
 
 .EPISÓDIOS {
     text-align: center;
     padding: 5px;
     background-color: #b89d68;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-}
-
 }
 
 .EPISÓDIOS p {
     font-family: 'Titillium-Black', sans-serif;
     font-size: 20px;
-    margin: 10px 0; /* Ajuste conforme necessário */
     color:  #fff;
 
 }
