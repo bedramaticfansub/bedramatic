@@ -31,4 +31,3 @@ document.addEventListener('DOMContentLoaded', function () {
 	setInterval(nextSlide, 5000); // Alterna para o próximo slide a cada 5 segundos
 });
 
-
