@@ -1,0 +1,163 @@
+body {
+    background-color:  #8d6c61;
+    margin: 20px;
+    font-family: 'Staatliches', sans-serif;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url("Front End/Staatliches/Staatliches-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #8d6c61;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
+.genre-section h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.poster-container {
+    display: inline;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.poster-item {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.poster img {
+    width: auto;
+    height: auto;
+    
+}
+
+@media screen and (max-width: 767px) {
+    .poster-container {
+        max-width: 100%; /* Usar a largura total da tela */
+    }
+
+    .poster-item {
+        min-width: 100%; /* Utilizar a largura total da tela para cada item do carrossel */
+    }
+
+    .poster img {
+        width: 100%; /* Utilizar a largura total da tela para a imagem */
+        height: auto; /* Altura automática para manter a proporção da imagem */
+    }
+}
+
+
+@font-face {
+    font-family: 'Titillium-Light';
+    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium-Black';
+    src: url("Front End/Titillium/Titillium-Black.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilo da sinopse */
+.sinopse {
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.sinopse p {
+    font-family: 'Titillium-Light', sans-serif;
+    src: url("Front End/Titillium/Titillium-Light.ttf") format('truetype');
+    font-size: 20px;
+    color:  #fff;
+}
+
+.sinopse p {
+    font-family: 'Titillium-Light', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+.ELENCO {
+    text-align: center;
+    padding: 5px;
+    background-color: #8d6c61;
+    border-radius: 5px;
+}
+
+.ELENCO p {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
+}
+
+.ELENCO a {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
+}
+
+.EPISÓDIOS {
+    text-align: center;
+    padding: 5px;
+    background-color: #8d6c61;
+    border-radius: 5px;
+}
+
+.EPISÓDIOS p {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
+}
+
+.EPISÓDIOS a {
+    font-family: 'Titillium-Black', sans-serif;
+    font-size: 20px;
+    color:  #fff;
+
+}
+
+.site-footer {
+  background-color: #8d6c61;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.visit-text {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}     
