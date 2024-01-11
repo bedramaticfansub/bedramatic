@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bc58e63e96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles-THEATHER.css">
+    <title>Be Dramatic Fansub</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Front End\logo png.png" alt="Logo da Sua Página"></a>
+        </div>
+    </header>
+
+
+	<div class="posdter-container">
+	<div class="poster">
+    	<div class="poster-item">
+        <a><img src="Posteres/CARROSSEL_PÁGINA_THEATER_A_LOVE_STORY.png" alt="THEATER" width=auto height=auto></a>
+    </div>
+ </div>
+
+
+ <div class="genre-section" id="SINOPSE">
+	<h2>THE HANDMAIDEN</h2>
+    <div class="sinopse">
+    <p>O filme é sobre Nagata, um diretor de teatro desajeitado e invendável e sua corajosa namorada Saki, que o ama puramente. 
+O romance deles começou quando Nagata cruzou com Saki e percebeu que ele usava o mesmo tênis que ela. Saki sonha em ser atriz e muda-se para Tóquio para cursar moda. 
+Nagata não tem dinheiro e decide morar com Saki. Nagata valoriza Saki, mas se dedica aos teatros para preencher as lacunas entre seus ideais e a realidade dela, levando à solidão de Saki.</p>
+          </div>
+    </div>
+
+	 <div class="ELENCO" id="ELENCO">
+	<h2>ELENCO</h2>
+    <div class="ELENCO">
+   	</div>
+    </div>
+	
+	 <div class="EPISÓDIOS">
+	 	<h2>FILME</h2>
+		     <div class="EPISÓDIOS">
+    <p>FILME: <a href="MEGA/mega.html">MEGA</a> - <a href="DRIVE/drive.html">DRIVE</a> - <a href="TELEGRAM/telegram.html">TELEGRAM</a> -  <a href="online.html">ONLINE</a>
+   
+    </div>
+
+<footer class="site-footer">
+  <div class="social-icons">
+    <a href="#" class="icon" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a href="#" class="icon" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="icon" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="icon" target="_blank"> <i class="fa-brands fa-square-x-twitter"></i>
+  </div>
+</footer>
+
+		
+</body>
+</html>
