@@ -1,5 +1,5 @@
 body {
-	background-color: #90639E;
+	background-color: #c3d7df;
 	margin: 0; /* Remova a margem padrão do body para garantir que a cor de fundo cubra toda a tela */
 	font-family: 'Staatliches', sans-serif;
 
@@ -14,7 +14,7 @@ body {
 
 
 header {
-	background-color: #90639E; /* Cor de fundo do cabeçalho */
+	background-color: #c3d7df; /* Cor de fundo do cabeçalho */
 	padding: 20px;
 	text-align: center;
 }
@@ -98,7 +98,7 @@ header {
 
 
 .genre-section {
-	background-color: #90639E; /* Cor de fundo da seção de gênero */
+	background-color: #c3d7df; /* Cor de fundo da seção de gênero */
 	padding: 20px;
 }
 
